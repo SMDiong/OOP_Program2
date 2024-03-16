@@ -17,7 +17,7 @@ def fancy_print(name, job):
 # Main Function, Input and Output
 def main():
     user_name = input(green + bold + "Please enter your name: ")
-    dream_job = input(green + bold + "Please enter your name: ")
+    dream_job = input(green + bold + "Please enter your dream job: ")
     fancy_print(user_name, dream_job)
 
 main()
